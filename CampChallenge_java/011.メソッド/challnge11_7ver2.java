@@ -18,7 +18,7 @@ public class challnge11_7ver2 extends HttpServlet {
                 String[] info1 = {"AABBCC", "鈴木鈴木", "1970/01/01", "大阪市"};
                 return info1;
             case "BBCCDD":
-                String[] info2 = {"BBCCDD", "佐藤佐藤", "1980/02/02", "名古屋市"};
+                String[] info2 = {"BBCCDD", "佐藤佐藤", "1980/02/02", null};
 
                 return info2;
             case "CCDDEE":
