@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><form action="./asignment3.jsp" method="post" >
+            ようこそ！<br>
+            あなたの運勢を占います<br>
+            あなたのことを教えてください<br>
+            お名前はなんですか？<br>
+            <input type="text" name ="txtName"><br>
+            性別を選んでください<br>
+            <input type="radio" name ="rdomale" value="男性">男性
+            <input type="radio" name ="rdofemale" value ="女性">女性<br>
+            生年月日を教えてください<br>
+            <input type="text" name ="txtBirthDay"><br>
+            血液型を教えてください<br>
+            <label>
+　　　　　　　 <input list ="bloodType" name ="blood"></label>
+            <datalist id ="bloodType">
+　　　　　　　 <option value="A型"></option>
+            <option value="B型"></option>
+            <option value="O型"></option>
+            <option value="AB型"></option>
+            </datalist><br>
+            星座を教えてください<br>
+            <label>
+            <input list="horoScope" name="horoscope" ></label>
+            <datalist id ="horoScope">
+            <option value="おひつじ座"></option>
+            <option value="おうし座"></option>
+            <option value="ふたご座"></option>
+            <option value="かに座"></option>
+            <option value="しし座"></option>
+            <option value="おとめ座"></option>
+            <option value="てんびん座"></option>
+            <option value="さそり座"></option>
+            <option value="いて座"></option>
+            <option value="やぎ座"></option>
+            <option value="みずがめ座"></option>
+            <option value="うお座"></option>
+            </datalist><br>
+            
+            
+            <input type="submit" value="占う"><input type="reset" value="リセット">
+　　　　　　　            
+                
+            </form></div>
+    </body>
+</html>
