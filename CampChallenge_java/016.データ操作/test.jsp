@@ -12,10 +12,10 @@
             request.setCharacterEncoding("UTF-8");
             
             out.print(request.getParameter("txtName") + "<br>");
-            if(request.getParameter("rdomale")!=null){
-                out.print(request.getParameter("rdomale") + "<br>");
+            if(request.getParameter("rdoSex").equals("男性")){
+                out.print(request.getParameter("rdoSex") + "<br>");
             }else{
-                out.print(request.getParameter("rdofemale") + "<br>");
+                out.print(request.getParameter("rdoSex") + "<br>");
             }
             out.print(request.getParameter("hobby") + "<br>");
             
