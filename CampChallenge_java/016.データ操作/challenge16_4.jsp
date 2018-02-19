@@ -15,9 +15,9 @@
         <h1><%
             request.setCharacterEncoding("UTF-8");
             
-            if(request.getParameter("type")== "1"){
+            if(request.getParameter("type").equals("1")){
                 out.print("商品は雑貨になります"+"<br>");
-            }else if(request.getParameter("type")== "2"){
+            }else if(request.getParameter("type").equals("2")){
                 out.print("商品は生鮮食品になります"+"<br>");
             }else{
                 out.print("商品はその他になります"+"<br>");
